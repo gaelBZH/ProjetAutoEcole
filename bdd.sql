@@ -1,8 +1,8 @@
 DROP DATABASE IF EXISTS AutoEcole;
 CREATE DATABASE AutoEcole;
-USE AUtoEcole;
+USE AutoEcole;
 
-CREATE TABLE Elève(
+CREATE TABLE Eleve(
    CodeNEPH VARCHAR(50),
    Nom VARCHAR(50) NOT NULL,
    Prénom VARCHAR(50) NOT NULL,
@@ -29,18 +29,18 @@ CREATE TABLE Moniteur(
    PRIMARY KEY(ID_Moniteur)
 );
 
-CREATE TABLE Véhicule(
+CREATE TABLE Vehicule(
    Immatriculation VARCHAR(50),
    TypeVéhicule VARCHAR(50) NOT NULL,
    Boite LOGICAL NOT NULL,
    Historique TEXT,
    CoûtAssurance INT,
    Marque VARCHAR(50),
-   Modèle VARCHAR(50),
+   Modele VARCHAR(50),
    PRIMARY KEY(Immatriculation)
 );
 
-CREATE TABLE Leçon(
+CREATE TABLE Lecon(
    ID_Leçon VARCHAR(50),
    Date_ DATETIME NOT NULL,
    Elève VARCHAR(50) NOT NULL,

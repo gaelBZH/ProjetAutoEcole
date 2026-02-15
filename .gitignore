@@ -1,0 +1,18 @@
+# Dossiers de compilation (Le gros problème d'aujourd'hui)
+bin/
+obj/
+
+# Dossiers de configuration Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de base de données locaux (si nécessaire)
+*.db
+*.localdb
+
+# Autres fichiers temporaires
+.DS_Store
+[Tt]emp/
