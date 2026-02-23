@@ -8,7 +8,7 @@ namespace ProjetAutoEcoleS4.Models
 {
     internal class Facture
     {
-        private string id_Facture;//Clé primaire
+        private int id_Facture;//Clé primaire
         private string destinataire;
         private string eleve; //Auto ou manuelle
         private int montant;

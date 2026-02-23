@@ -8,7 +8,7 @@ namespace ProjetAutoEcoleS4.Models
 {
     internal class Lecon
     {
-        private string id_Lecon;//Clé primaire
+        private int id_Lecon;//Clé primaire
         private DateTime date;
         private string eleve; //Auto ou manuelle
         private string moniteur;
